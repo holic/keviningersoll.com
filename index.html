@@ -1,33 +1,118 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Kevin Ingersoll</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin Ingersoll</title>
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300">
-	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-	<link rel="stylesheet" href="assets/css/theme.css">
-</head>
-<body>
-	<section>
-		<article>
-			<h1>Kevin Ingersoll</h1>
-			<p>
-				<a href="https://twitter.com/kingersoll" title="@kingersoll">
-					<i class="fa fa-lg fa-twitter"></i>
-				</a>
-				<a href="https://github.com/holic" title="@holic">
-					<i class="fa fa-lg fa-github"></i>
-				</a>
-				<a href="mailto:kingersoll@gmail.com" title="kingersoll@gmail.com">
-					<i class="fa fa-envelope"></i>
-				</a>
-				<a href="tel:+19166264426" title="+1 (916) 626-4426">
-					<i class="fa fa-lg fa-phone"></i>
-				</a>
-			</p>
-		</article>
-	</section>
-</body>
+    <style>
+      *,
+      ::before,
+      ::after {
+        box-sizing: border-box;
+      }
+      html {
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+          "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+          "Noto Color Emoji";
+        line-height: 1.5;
+        background: #1f2937;
+        color: #fff;
+      }
+      body {
+        margin: 0;
+        line-height: inherit;
+        font-size: 1.125rem;
+      }
+      a {
+        color: #fff;
+        text-decoration: none;
+        transition: all ease-in-out 600ms;
+        padding: 0.25em 0.5em;
+        margin: -0.25em -0.5em;
+      }
+      a::after {
+        content: "→";
+        position: absolute;
+        margin-left: -0.25rem;
+        color: transparent;
+        pointer-events: none;
+        transition: color ease-in-out 300ms, margin ease-in-out 0ms 300ms;
+      }
+      a:hover {
+        color: #facc15;
+        transition: all ease-in-out 150ms;
+      }
+      a:hover::after {
+        display: inline;
+        margin-left: 0.5em;
+        color: #facc15;
+        transition: all ease-in-out 150ms;
+      }
+      section {
+        box-sizing: border-box;
+        min-width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem;
+      }
+      img {
+        width: 12rem;
+        height: 12rem;
+        border-radius: 50%;
+      }
+      h1 {
+        font-size: 2.5rem;
+        font-weight: inherit;
+        border-bottom: 1px solid #4d7c0f;
+        margin: 0;
+      }
+      th {
+        font-weight: inherit;
+        text-align: right;
+        color: #65a30d;
+      }
+      th,
+      td {
+        padding: 0.125rem 0.25rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <img
+        src="https://avatars.githubusercontent.com/u/508855?v=4"
+        alt="Kevin Ingersoll"
+      />
+      <h1>Kevin Ingersoll</h1>
+      <table>
+        <tbody>
+          <tr>
+            <th>Twitter</th>
+            <td><a href="https://twitter.com/kingersoll">kingersoll</a></td>
+          </tr>
+          <tr>
+            <th>GitHub</th>
+            <td><a href="https://github.com/holic">holic</a></td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td>
+              <a href="mailto:kingersoll@gmail.com">kingersoll@gmail.com</a>
+            </td>
+          </tr>
+          <tr>
+            <th>Phone</th>
+            <td><a href="tel:+19162577651">(916) 257-7651</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
 </html>
