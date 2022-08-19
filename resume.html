@@ -1,275 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" hidden>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-
-    <title>Kevin Ingersoll &mdash; Résumé</title>
-
-    <link
-      rel="stylesheet"
-      href="https://d2v52k3cl9vedd.cloudfront.net/basscss/7.0.0/basscss.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
-    />
-    <style>
-      body {
-        margin-bottom: 8rem;
-        font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-      }
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        font-family: inherit;
-      }
-
-      .h0 {
-        font-size: 3rem;
-      }
-      .uppercase {
-        text-transform: uppercase;
-      }
-    </style>
-    <style media="print">
-      body {
-        margin-bottom: 0;
-        font-size: 15px;
-      }
-      body,
-      .white {
-        color: #000;
-      }
-      a,
-      .blue {
-        color: #ccc;
-      }
-
-      .py4 {
-        padding-top: 0;
-        padding-bottom: 0;
-      }
-      .mt4 {
-        margin-top: 3rem;
-      }
-    </style>
-
-    <script>
-      (function (i, s, o, g, r, a, m) {
-        i["GoogleAnalyticsObject"] = r;
-        (i[r] =
-          i[r] ||
-          function () {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(
-        window,
-        document,
-        "script",
-        "//www.google-analytics.com/analytics.js",
-        "ga"
-      );
-
-      ga("create", "UA-2437913-17", "auto");
-      ga("send", "pageview");
-    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin Ingersoll&apos;s Resume</title>
+    <script type="module" src="https://cdn.skypack.dev/twind/shim"></script>
   </head>
-  <body>
-    <header class="bg-blue white py4">
-      <div class="container px2">
-        <div class="clearfix mxn1">
-          <div class="col col-8 px1">
-            <h1 class="h0 regular m0">Kevin Ingersoll</h1>
-            <h2 class="regular m0">Developer and RESTafarian</h2>
-            <p class="m0">Oakland, CA</p>
-          </div>
-          <div class="col col-4 right-align px1 py1">
-            <p class="m0">
-              <a href="mailto:kingersoll@gmail.com" class="white"
-                >kingersoll@gmail.com</a
-              >
-            </p>
-            <p class="m0">+1 (916) 626-4426</p>
-            <p class="m0">
-              <a href="http://keviningersoll.com/" class="white"
-                >www.keviningersoll.com</a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section class="mt4">
-      <div class="container px2">
-        <div class="clearfix mxn1">
-          <div class="md-col md-col-4 px1">
-            <h3 class="m0 mb3 uppercase blue">Introduction</h3>
-          </div>
-          <div class="md-col md-col-8 px1">
-            <p>
-              From the moment I dialed-up at the age of 12, I was intrigued by
-              the online world. After creating my first website in raw HTML, I
-              was hooked.
-            </p>
-            <p>
-              In these 17 years, I've touched nearly every piece that makes the
-              web work. From designing in Photoshop, mockups in cross-browser
-              HTML/CSS (oh the days of IE5.5 compatibility), progressive
-              enhancement with Javascript, writing a backend application through
-              to setting up and running servers, DNS hosting, optimizing for
-              search engines, and even buying and selling domain names.
-            </p>
-            <p>
-              I love full-stack development and am particularly fond of
-              Javascript, especially since Ryan Dahl's original Node.js demo in
-              2009. I'm heavily invested in the user experience and always have
-              end users in mind. And ultimately, I like to build cool things
-              with cool people.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="mt4">
-      <div class="container px2">
-        <div class="clearfix mxn2">
-          <div class="md-col md-col-4 px1">
-            <h3 class="m0 mb3 uppercase blue">Work Experience</h3>
-          </div>
-          <div class="md-col md-col-8 px1">
-            <p>
-              <strong>September 2015 to present</strong> &mdash; Front-end
-              developer at <a href="https://stripe.com/">Stripe</a>
-            </p>
-            <blockquote>
-              Currently on the Internal Tools team as a full-stack developer.
-              Built a search engine to index content across the various internal
-              sources, giving Stripes a single place to find internal knowledge,
-              people, teams, services, and servers.
-            </blockquote>
-
-            <p>
-              <strong>April 2015 to present</strong> &mdash; Full-stack
-              developer at <a href="https://voilahq.com/">Voilà</a>
-            </p>
-            <blockquote>
-              Bootstrapped company that won Wellington's Startup Weekend.
-              Currently the sole developer, building customer-facing website and
-              dashboard, interfacing with Stripe, Shopify and Vend, and
-              mobile-friendly interactive showroom widget.
-            </blockquote>
-
-            <p>
-              <strong>January 2013 to September 2015</strong> &mdash; Front-end
-              developer at <a href="https://iwantmyname.com/">iwantmyname</a>
-            </p>
-            <blockquote>
-              Rebuilt domain search frontend to be more performant, designed a
-              domain and DNS management API using common RESTful practices, and
-              wrote client libraries for the API. Lead a rebuild of the
-              dashboard and marketing site on top of the API to be mobile-first
-              with a modern design and a focus on simplicity. Regularly assisted
-              in customer support and built internal tools.
-            </blockquote>
-
-            <p>
-              <strong>September 2012 to January 2013</strong> &mdash; Full-stack
-              developer at MyRedis
-            </p>
-            <blockquote>
-              Built customer-facing website and dashboard and interfaced with
-              Heroku's add-on platform API, becoming an official Heroku add-on.
-              Later sold to Garantia Data, now Redis Labs.
-            </blockquote>
-
-            <p>
-              <strong>March 2012 to September 2012</strong> &mdash;
-              MinecraftServers.com &amp; MCServers.org
-            </p>
-            <blockquote>
-              Built and ran two popular Minecraft server lists, well optimized
-              for search engines and grew to over 100k unique monthly visitors.
-              Later sold.
-            </blockquote>
-
-            <p>
-              <strong>October 2010 to January 2012</strong> &mdash; Freelance
-              developer at
-              <a href="http://www.hatchetcaye.com/">Hatchet Caye Resort</a>
-            </p>
-            <blockquote>
-              Designed and built a custom Wordpress theme, created custom
-              Wordpress plugins to interface with booking engine, initiated
-              search engine marketing campaign, social marketing campaigns, and
-              pay-per-click campaigns.
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="mt4">
-      <div class="container px2">
-        <div class="clearfix mxn1">
-          <div class="md-col md-col-4 px1">
-            <h3 class="m0 mb3 uppercase blue">Additional Experience</h3>
-          </div>
-          <div class="md-col md-col-8 px1">
-            <p>
-              <strong>Open source</strong> &mdash; I'm
-              <a href="https://github.com/holic">@holic on GitHub</a>
-            </p>
-            <blockquote>
-              <p>
-                I've contributed to a variety of open source projects including
-                the Redis client for Node.js, Mongoose ODM for MongoDB, gostatic
-                static site generator in Go, webhooks for Firebase, Vue.js
-                framework, and more.
-              </p>
-              <p>
-                I built
-                <a href="https://github.com/Minecarts"
-                  >a full suite of Minecraft server plugins</a
+  <body class="bg-gray-200 font-mono flex min-h-screen overscroll-none">
+    <div
+      class="container mx-auto bg-white flex flex-col flex-1 shadow-2xl mt-8"
+    >
+      <div
+        class="flex flex-col flex-1 border-x-[1.25rem] border-dotted border-gray-300 px-3 m-3"
+      >
+        <div
+          class="flex flex-col flex-1 gap-12 border-x-2 border-dotted border-gray-200 px-16 py-24 -my-3"
+        >
+          <div class="flex justify-between">
+            <div>
+              <h1 class="text-3xl text-black font-bold">Kevin Ingersoll</h1>
+              <p>hypertext veteran</p>
+            </div>
+            <div class="flex flex-col items-end gap-2 text-sm text-right">
+              <div class="flex gap-2">
+                <a
+                  href="mailto:kingersoll@gmail.com"
+                  target="_blank"
+                  class="text-blue-600 underline hover:text-blue-400"
+                  >Email</a
                 >
-                for the Bukkit API to help run a popular, self-sustaining
-                Minecraft server. I've contributed to Bukkit itself, too.
-              </p>
-              <p>
-                I'm also proud to say I created the little buttons in the footer
-                of every Wikimedia/MediaWiki website, including Wikipedia.
-                They've since been updated to be retina friendly.
-              </p>
-            </blockquote>
-
-            <p><strong>Startup Weekend</strong></p>
-            <blockquote>
-              As the sole developer in a team of six, won Startup Weekend in
-              Wellington, New Zealand by wowing the mentors and judges with a
-              live product demo. We've since started a company with four of us
-              to bootstrap the business.
-            </blockquote>
-
-            <p><strong>Hackathons</strong></p>
-            <blockquote>
-              Built
-              <a href="https://callmemaybe.meteor.com/">a Google Voice clone</a>
-              using Meteor and Twilio in 23 hours at the Meteor Summer
-              Hackathon.
-            </blockquote>
+                /
+                <a
+                  href="https://twitter.com/kingersoll"
+                  target="_blank"
+                  class="text-blue-600 underline hover:text-blue-400"
+                  >Twitter</a
+                >
+                /
+                <a
+                  href="https://github.com/holic"
+                  target="_blank"
+                  class="text-blue-600 underline hover:text-blue-400"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <p>
+            I was captivated by the web the first moment I dialed up in ~1999. I
+            taught myself how to build websites in the days of the webmaster,
+            when everyone was full-stack. After learning to program in a few
+            languages, I narrowed my focus and honed my skills in frontend
+            engineering. There's still nothing that gets me in the flow faster
+            than a laptop with a browser, code editor, and some electronic
+            music. Lately, I've been energized and inspired by the new
+            primitives and promise of web3.
+          </p>
+          <div>
+            <h2 class="font-bold">Work experience</h2>
+            <table class="mx-4">
+              <tbody>
+                <tr>
+                  <td class="w-1/6 p-3 align-top">Self-employed</td>
+                  <td class="w-2/6 p-3 align-top">Nov 2021 - Present</td>
+                  <td class="p-3 align-top text-sm">
+                    After ramping up on web3 at the end of 2021, I have been
+                    freelancing for many companies and projects, building sites,
+                    smart contracts, Discord bots, and other tools. These groups
+                    include
+                    <a
+                      href="https://collective.proof.xyz/"
+                      target="_blank"
+                      class="text-blue-600 underline hover:text-blue-400"
+                      >PROOF Collective</a
+                    >,
+                    <a
+                      href="https://gallery.so/"
+                      target="_blank"
+                      class="text-blue-600 underline hover:text-blue-400"
+                      >Gallery</a
+                    >,
+                    <a
+                      href="https://context.app/"
+                      target="_blank"
+                      class="text-blue-600 underline hover:text-blue-400"
+                      >Context</a
+                    >
+                    (<a
+                      href="https://mint.fun/"
+                      target="_blank"
+                      class="text-blue-600 underline hover:text-blue-400"
+                      >mint.fun</a
+                    >),
+                    <a
+                      href="https://twitter.com/okpcnft"
+                      target="_blank"
+                      class="text-blue-600 underline hover:text-blue-400"
+                      >OKPC</a
+                    >,
+                    <a
+                      href="https://twitter.com/exquisiteland"
+                      target="_blank"
+                      class="text-blue-600 underline hover:text-blue-400"
+                      >Exquisite Land</a
+                    >, and
+                    <a
+                      href="https://twitter.com/boryokudragonz"
+                      target="_blank"
+                      class="text-blue-600 underline hover:text-blue-400"
+                      >Boryoku Dragonz</a
+                    >
+                    (<a
+                      href="https://twitter.com/akumudragonz"
+                      target="_blank"
+                      class="text-blue-600 underline hover:text-blue-400"
+                      >Akumu Dragonz</a
+                    >).
+                  </td>
+                </tr>
+                <tr>
+                  <td class="w-1/6 p-3 align-top">Kenchi</td>
+                  <td class="w-2/6 p-3 align-top">Mar 2021 - June 2021</td>
+                  <td class="p-3 align-top text-sm">
+                    Built customer-facing dashboards for managing content, team
+                    permissions and controls, and viewing usage metrics. Started
+                    a design system/component library.
+                  </td>
+                </tr>
+                <tr>
+                  <td class="w-1/6 p-3 align-top">Stripe</td>
+                  <td class="w-2/6 p-3 align-top">Sept 2015 - Mar 2021</td>
+                  <td class="p-3 align-top text-sm">
+                    Built and maintained Stripe Home, a company hub with team
+                    and people profiles, activity feed, shared calendars, and an
+                    internal search engine. Contributed to tools for support,
+                    admin, onboarding, security, and compliance. Helped hire,
+                    onboard, and mentor several new employees.
+                  </td>
+                </tr>
+                <tr>
+                  <td class="w-1/6 p-3 align-top">iwantmyname</td>
+                  <td class="w-2/6 p-3 align-top">Jan 2013 - Sept 2015</td>
+                  <td class="p-3 align-top text-sm">
+                    Built one of the fastest and most accurate domain search
+                    tools. Designed REST API for domain and DNS management.
+                    Built dashboard features and internal tools. Regularly
+                    assisted in customer support.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   </body>
 </html>
